@@ -1,0 +1,592 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11437261
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2015 (5-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2015 (5-Year Estimates)
+Tables:
+
+      1. Gross Rent as a Percentage of Household Income in 2015
+         Universe:  Renter-occupied housing units
+         Name:      T103
+         Variables:
+            T103_001:   Renter-Occupied Housing Units:
+            T103_002:      Less than 10 Percent
+            T103_003:      10 to 29 Percent
+            T103_004:      30 to 49 Percent
+            T103_005:      50 Percent or More
+            T103_006:      Not Computed
+
+
+
+
+
+Survey:           ACS 2015 (5-Year Estimates)
+Dataset:          American Community Survey Tables:  2011 -- 2015 (5-Year Estimates)
+Tables:
+
+      1. Household Income by Gross Rent as a Percentage of Household Income in the Past 12 Months
+         Universe:  Universe:  Renter-occupied housing units
+         Name:      B25074
+         Variables:
+            B25074001:   Total
+            B25074002:      Less than $10,000
+            B25074003:         Less than 20.0 Percent
+            B25074004:         20.0 to 24.9 Percent
+            B25074005:         25.0 to 29.9 Percent
+            B25074006:         30.0 to 34.9 Percent
+            B25074007:         35.0 to 39.9 Percent
+            B25074008:         40.0 to 49.9 Percent
+            B25074009:         50.0 Percent or More
+            B25074010:         Not Computed
+            B25074011:      $10,000 to $19,999
+            B25074012:         Less than 20.0 Percent
+            B25074013:         20.0 to 24.9 Percent
+            B25074014:         25.0 to 29.9 Percent
+            B25074015:         30.0 to 34.9 Percent
+            B25074016:         35.0 to 39.9 Percent
+            B25074017:         40.0 to 49.9 Percent
+            B25074018:         50.0 Percent or More
+            B25074019:         Not Computed
+            B25074020:      $20,000 to $34,999
+            B25074021:         Less than 20.0 Percent
+            B25074022:         20.0 to 24.9 Percent
+            B25074023:         25.0 to 29.9 Percent
+            B25074024:         30.0 to 34.9 Percent
+            B25074025:         35.0 to 39.9 Percent
+            B25074026:         40.0 to 49.9 Percent
+            B25074027:         50.0 Percent or More
+            B25074028:         Not Computed
+            B25074029:      $35,000 to $49,999
+            B25074030:         Less than 20.0 Percent
+            B25074031:         20.0 to 24.9 Percent
+            B25074032:         25.0 to 29.9 Percent
+            B25074033:         30.0 to 34.9 Percent
+            B25074034:         35.0 to 39.9 Percent
+            B25074035:         40.0 to 49.9 Percent
+            B25074036:         50.0 Percent or More
+            B25074037:         Not Computed
+            B25074038:      $50,000 to $74,999
+            B25074039:         Less than 20.0 Percent
+            B25074040:         20.0 to 24.9 Percent
+            B25074041:         25.0 to 29.9 Percent
+            B25074042:         30.0 to 34.9 Percent
+            B25074043:         35.0 to 39.9 Percent
+            B25074044:         40.0 to 49.9 Percent
+            B25074045:         50.0 Percent or More
+            B25074046:         Not Computed
+            B25074047:      $75,000 to $99,999
+            B25074048:         Less than 20.0 Percent
+            B25074049:         20.0 to 24.9 Percent
+            B25074050:         25.0 to 29.9 Percent
+            B25074051:         30.0 to 34.9 Percent
+            B25074052:         35.0 to 39.9 Percent
+            B25074053:         40.0 to 49.9 Percent
+            B25074054:         50.0 Percent or More
+            B25074055:         Not Computed
+            B25074056:      $100,000 or More
+            B25074057:         Less than 20.0 Percent
+            B25074058:         20.0 to 24.9 Percent
+            B25074059:         25.0 to 29.9 Percent
+            B25074060:         30.0 to 34.9 Percent
+            B25074061:         35.0 to 39.9 Percent
+            B25074062:         40.0 to 49.9 Percent
+            B25074063:         50.0 Percent or More
+            B25074064:         Not Computed
+
+
+      2. Household Income by Gross Rent as a Percentage of Household Income in the Past 12 Months
+         Universe:  Universe:  Renter-occupied housing units
+         Name:      B25074_se
+         Variables:
+            B25074001s:   Std. Error: Total
+            B25074002s:      Std. Error: Less than $10,000
+            B25074003s:         Std. Error: Less than 20.0 Percent
+            B25074004s:         Std. Error: 20.0 to 24.9 Percent
+            B25074005s:         Std. Error: 25.0 to 29.9 Percent
+            B25074006s:         Std. Error: 30.0 to 34.9 Percent
+            B25074007s:         Std. Error: 35.0 to 39.9 Percent
+            B25074008s:         Std. Error: 40.0 to 49.9 Percent
+            B25074009s:         Std. Error: 50.0 Percent or More
+            B25074010s:         Std. Error: Not Computed
+            B25074011s:      Std. Error: $10,000 to $19,999
+            B25074012s:         Std. Error: Less than 20.0 Percent
+            B25074013s:         Std. Error: 20.0 to 24.9 Percent
+            B25074014s:         Std. Error: 25.0 to 29.9 Percent
+            B25074015s:         Std. Error: 30.0 to 34.9 Percent
+            B25074016s:         Std. Error: 35.0 to 39.9 Percent
+            B25074017s:         Std. Error: 40.0 to 49.9 Percent
+            B25074018s:         Std. Error: 50.0 Percent or More
+            B25074019s:         Std. Error: Not Computed
+            B25074020s:      Std. Error: $20,000 to $34,999
+            B25074021s:         Std. Error: Less than 20.0 Percent
+            B25074022s:         Std. Error: 20.0 to 24.9 Percent
+            B25074023s:         Std. Error: 25.0 to 29.9 Percent
+            B25074024s:         Std. Error: 30.0 to 34.9 Percent
+            B25074025s:         Std. Error: 35.0 to 39.9 Percent
+            B25074026s:         Std. Error: 40.0 to 49.9 Percent
+            B25074027s:         Std. Error: 50.0 Percent or More
+            B25074028s:         Std. Error: Not Computed
+            B25074029s:      Std. Error: $35,000 to $49,999
+            B25074030s:         Std. Error: Less than 20.0 Percent
+            B25074031s:         Std. Error: 20.0 to 24.9 Percent
+            B25074032s:         Std. Error: 25.0 to 29.9 Percent
+            B25074033s:         Std. Error: 30.0 to 34.9 Percent
+            B25074034s:         Std. Error: 35.0 to 39.9 Percent
+            B25074035s:         Std. Error: 40.0 to 49.9 Percent
+            B25074036s:         Std. Error: 50.0 Percent or More
+            B25074037s:         Std. Error: Not Computed
+            B25074038s:      Std. Error: $50,000 to $74,999
+            B25074039s:         Std. Error: Less than 20.0 Percent
+            B25074040s:         Std. Error: 20.0 to 24.9 Percent
+            B25074041s:         Std. Error: 25.0 to 29.9 Percent
+            B25074042s:         Std. Error: 30.0 to 34.9 Percent
+            B25074043s:         Std. Error: 35.0 to 39.9 Percent
+            B25074044s:         Std. Error: 40.0 to 49.9 Percent
+            B25074045s:         Std. Error: 50.0 Percent or More
+            B25074046s:         Std. Error: Not Computed
+            B25074047s:      Std. Error: $75,000 to $99,999
+            B25074048s:         Std. Error: Less than 20.0 Percent
+            B25074049s:         Std. Error: 20.0 to 24.9 Percent
+            B25074050s:         Std. Error: 25.0 to 29.9 Percent
+            B25074051s:         Std. Error: 30.0 to 34.9 Percent
+            B25074052s:         Std. Error: 35.0 to 39.9 Percent
+            B25074053s:         Std. Error: 40.0 to 49.9 Percent
+            B25074054s:         Std. Error: 50.0 Percent or More
+            B25074055s:         Std. Error: Not Computed
+            B25074056s:      Std. Error: $100,000 or More
+            B25074057s:         Std. Error: Less than 20.0 Percent
+            B25074058s:         Std. Error: 20.0 to 24.9 Percent
+            B25074059s:         Std. Error: 25.0 to 29.9 Percent
+            B25074060s:         Std. Error: 30.0 to 34.9 Percent
+            B25074061s:         Std. Error: 35.0 to 39.9 Percent
+            B25074062s:         Std. Error: 40.0 to 49.9 Percent
+            B25074063s:         Std. Error: 50.0 Percent or More
+            B25074064s:         Std. Error: Not Computed
+
+
+      3. Mortgage Status by Monthly Housing Costs as a Percentage of Household Income in the Past 12 Months
+         Universe:  Universe:  Owner-occupied housing units
+         Name:      B25101
+         Variables:
+            B25101001:   Total
+            B25101002:      With a Mortgage
+            B25101003:         Less than $20,000
+            B25101004:            Less than 20 Percent
+            B25101005:            20 to 29 Percent
+            B25101006:            30 Percent or More
+            B25101007:         $20,000 to $34,999
+            B25101008:            Less than 20 Percent
+            B25101009:            20 to 29 Percent
+            B25101010:            30 Percent or More
+            B25101011:         $35,000 to $49,999
+            B25101012:            Less than 20 Percent
+            B25101013:            20 to 29 Percent
+            B25101014:            30 Percent or More
+            B25101015:         $50,000 to $74,999
+            B25101016:            Less than 20 Percent
+            B25101017:            20 to 29 Percent
+            B25101018:            30 Percent or More
+            B25101019:         $75,000 or More
+            B25101020:            Less than 20 Percent
+            B25101021:            20 to 29 Percent
+            B25101022:            30 Percent or More
+            B25101023:         Zero or Negative Income
+            B25101024:      Not Mortgaged
+            B25101025:         Less than $20,000
+            B25101026:            Less than 20 Percent
+            B25101027:            20 to 29 Percent
+            B25101028:            30 Percent or More
+            B25101029:         $20,000 to $34,999
+            B25101030:            Less than 20 Percent
+            B25101031:            20 to 29 Percent
+            B25101032:            30 Percent or More
+            B25101033:         $35,000 to $49,999
+            B25101034:            Less than 20 Percent
+            B25101035:            20 to 29 Percent
+            B25101036:            30 Percent or More
+            B25101037:         $50,000 to $74,999
+            B25101038:            Less than 20 Percent
+            B25101039:            20 to 29 Percent
+            B25101040:            30 Percent or More
+            B25101041:         $75,000 or More
+            B25101042:            Less than 20 Percent
+            B25101043:            20 to 29 Percent
+            B25101044:            30 Percent or More
+            B25101045:         Zero or Negative Income
+
+
+      4. Mortgage Status by Monthly Housing Costs as a Percentage of Household Income in the Past 12 Months
+         Universe:  Universe:  Owner-occupied housing units
+         Name:      B25101_se
+         Variables:
+            B25101001s:   Std. Error: Total
+            B25101002s:      Std. Error: with a Mortgage
+            B25101003s:         Std. Error: Less than $20,000
+            B25101004s:            Std. Error: Less than 20 Percent
+            B25101005s:            Std. Error: 20 to 29 Percent
+            B25101006s:            Std. Error: 30 Percent or More
+            B25101007s:         Std. Error: $20,000 to $34,999
+            B25101008s:            Std. Error: Less than 20 Percent
+            B25101009s:            Std. Error: 20 to 29 Percent
+            B25101010s:            Std. Error: 30 Percent or More
+            B25101011s:         Std. Error: $35,000 to $49,999
+            B25101012s:            Std. Error: Less than 20 Percent
+            B25101013s:            Std. Error: 20 to 29 Percent
+            B25101014s:            Std. Error: 30 Percent or More
+            B25101015s:         Std. Error: $50,000 to $74,999
+            B25101016s:            Std. Error: Less than 20 Percent
+            B25101017s:            Std. Error: 20 to 29 Percent
+            B25101018s:            Std. Error: 30 Percent or More
+            B25101019s:         Std. Error: $75,000 or More
+            B25101020s:            Std. Error: Less than 20 Percent
+            B25101021s:            Std. Error: 20 to 29 Percent
+            B25101022s:            Std. Error: 30 Percent or More
+            B25101023s:         Std. Error: Zero or Negative Income
+            B25101024s:      Std. Error: Not Mortgaged
+            B25101025s:         Std. Error: Less than $20,000
+            B25101026s:            Std. Error: Less than 20 Percent
+            B25101027s:            Std. Error: 20 to 29 Percent
+            B25101028s:            Std. Error: 30 Percent or More
+            B25101029s:         Std. Error: $20,000 to $34,999
+            B25101030s:            Std. Error: Less than 20 Percent
+            B25101031s:            Std. Error: 20 to 29 Percent
+            B25101032s:            Std. Error: 30 Percent or More
+            B25101033s:         Std. Error: $35,000 to $49,999
+            B25101034s:            Std. Error: Less than 20 Percent
+            B25101035s:            Std. Error: 20 to 29 Percent
+            B25101036s:            Std. Error: 30 Percent or More
+            B25101037s:         Std. Error: $50,000 to $74,999
+            B25101038s:            Std. Error: Less than 20 Percent
+            B25101039s:            Std. Error: 20 to 29 Percent
+            B25101040s:            Std. Error: 30 Percent or More
+            B25101041s:         Std. Error: $75,000 or More
+            B25101042s:            Std. Error: Less than 20 Percent
+            B25101043s:            Std. Error: 20 to 29 Percent
+            B25101044s:            Std. Error: 30 Percent or More
+            B25101045s:         Std. Error: Zero or Negative Income
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      T103_001:       Renter-Occupied Housing Units:
+      T103_002:       Renter-Occupied Housing Units: Less than 10 Percent
+      T103_003:       Renter-Occupied Housing Units: 10 to 29 Percent
+      T103_004:       Renter-Occupied Housing Units: 30 to 49 Percent
+      T103_005:       Renter-Occupied Housing Units: 50 Percent or More
+      T103_006:       Renter-Occupied Housing Units: Not Computed
+      B25074001:      Renter-Occupied Housing Units
+      B25074002:      Renter-Occupied Housing Units: Less than $10,000
+      B25074003:      Renter-Occupied Housing Units: Less than $10,000: Less than 20.0 Percent
+      B25074004:      Renter-Occupied Housing Units: Less than $10,000: 20.0 to 24.9 Percent
+      B25074005:      Renter-Occupied Housing Units: Less than $10,000: 25.0 to 29.9 Percent
+      B25074006:      Renter-Occupied Housing Units: Less than $10,000: 30.0 to 34.9 Percent
+      B25074007:      Renter-Occupied Housing Units: Less than $10,000: 35.0 to 39.9 Percent
+      B25074008:      Renter-Occupied Housing Units: Less than $10,000: 40.0 to 49.9 Percent
+      B25074009:      Renter-Occupied Housing Units: Less than $10,000: 50.0 Percent or More
+      B25074010:      Renter-Occupied Housing Units: Less than $10,000: Not Computed
+      B25074011:      Renter-Occupied Housing Units: $10,000 to $19,999
+      B25074012:      Renter-Occupied Housing Units: $10,000 to $19,999: Less than 20.0 Percent
+      B25074013:      Renter-Occupied Housing Units: $10,000 to $19,999: 20.0 to 24.9 Percent
+      B25074014:      Renter-Occupied Housing Units: $10,000 to $19,999: 25.0 to 29.9 Percent
+      B25074015:      Renter-Occupied Housing Units: $10,000 to $19,999: 30.0 to 34.9 Percent
+      B25074016:      Renter-Occupied Housing Units: $10,000 to $19,999: 35.0 to 39.9 Percent
+      B25074017:      Renter-Occupied Housing Units: $10,000 to $19,999: 40.0 to 49.9 Percent
+      B25074018:      Renter-Occupied Housing Units: $10,000 to $19,999: 50.0 Percent or More
+      B25074019:      Renter-Occupied Housing Units: $10,000 to $19,999: Not Computed
+      B25074020:      Renter-Occupied Housing Units: $20,000 to $34,999
+      B25074021:      Renter-Occupied Housing Units: $20,000 to $34,999: Less than 20.0 Percent
+      B25074022:      Renter-Occupied Housing Units: $20,000 to $34,999: 20.0 to 24.9 Percent
+      B25074023:      Renter-Occupied Housing Units: $20,000 to $34,999: 25.0 to 29.9 Percent
+      B25074024:      Renter-Occupied Housing Units: $20,000 to $34,999: 30.0 to 34.9 Percent
+      B25074025:      Renter-Occupied Housing Units: $20,000 to $34,999: 35.0 to 39.9 Percent
+      B25074026:      Renter-Occupied Housing Units: $20,000 to $34,999: 40.0 to 49.9 Percent
+      B25074027:      Renter-Occupied Housing Units: $20,000 to $34,999: 50.0 Percent or More
+      B25074028:      Renter-Occupied Housing Units: $20,000 to $34,999: Not Computed
+      B25074029:      Renter-Occupied Housing Units: $35,000 to $49,999
+      B25074030:      Renter-Occupied Housing Units: $35,000 to $49,999: Less than 20.0 Percent
+      B25074031:      Renter-Occupied Housing Units: $35,000 to $49,999: 20.0 to 24.9 Percent
+      B25074032:      Renter-Occupied Housing Units: $35,000 to $49,999: 25.0 to 29.9 Percent
+      B25074033:      Renter-Occupied Housing Units: $35,000 to $49,999: 30.0 to 34.9 Percent
+      B25074034:      Renter-Occupied Housing Units: $35,000 to $49,999: 35.0 to 39.9 Percent
+      B25074035:      Renter-Occupied Housing Units: $35,000 to $49,999: 40.0 to 49.9 Percent
+      B25074036:      Renter-Occupied Housing Units: $35,000 to $49,999: 50.0 Percent or More
+      B25074037:      Renter-Occupied Housing Units: $35,000 to $49,999: Not Computed
+      B25074038:      Renter-Occupied Housing Units: $50,000 to $74,999
+      B25074039:      Renter-Occupied Housing Units: $50,000 to $74,999: Less than 20.0 Percent
+      B25074040:      Renter-Occupied Housing Units: $50,000 to $74,999: 20.0 to 24.9 Percent
+      B25074041:      Renter-Occupied Housing Units: $50,000 to $74,999: 25.0 to 29.9 Percent
+      B25074042:      Renter-Occupied Housing Units: $50,000 to $74,999: 30.0 to 34.9 Percent
+      B25074043:      Renter-Occupied Housing Units: $50,000 to $74,999: 35.0 to 39.9 Percent
+      B25074044:      Renter-Occupied Housing Units: $50,000 to $74,999: 40.0 to 49.9 Percent
+      B25074045:      Renter-Occupied Housing Units: $50,000 to $74,999: 50.0 Percent or More
+      B25074046:      Renter-Occupied Housing Units: $50,000 to $74,999: Not Computed
+      B25074047:      Renter-Occupied Housing Units: $75,000 to $99,999
+      B25074048:      Renter-Occupied Housing Units: $75,000 to $99,999: Less than 20.0 Percent
+      B25074049:      Renter-Occupied Housing Units: $75,000 to $99,999: 20.0 to 24.9 Percent
+      B25074050:      Renter-Occupied Housing Units: $75,000 to $99,999: 25.0 to 29.9 Percent
+      B25074051:      Renter-Occupied Housing Units: $75,000 to $99,999: 30.0 to 34.9 Percent
+      B25074052:      Renter-Occupied Housing Units: $75,000 to $99,999: 35.0 to 39.9 Percent
+      B25074053:      Renter-Occupied Housing Units: $75,000 to $99,999: 40.0 to 49.9 Percent
+      B25074054:      Renter-Occupied Housing Units: $75,000 to $99,999: 50.0 Percent or More
+      B25074055:      Renter-Occupied Housing Units: $75,000 to $99,999: Not Computed
+      B25074056:      Renter-Occupied Housing Units: $100,000 or More
+      B25074057:      Renter-Occupied Housing Units: $100,000 or More: Less than 20.0 Percent
+      B25074058:      Renter-Occupied Housing Units: $100,000 or More: 20.0 to 24.9 Percent
+      B25074059:      Renter-Occupied Housing Units: $100,000 or More: 25.0 to 29.9 Percent
+      B25074060:      Renter-Occupied Housing Units: $100,000 or More: 30.0 to 34.9 Percent
+      B25074061:      Renter-Occupied Housing Units: $100,000 or More: 35.0 to 39.9 Percent
+      B25074062:      Renter-Occupied Housing Units: $100,000 or More: 40.0 to 49.9 Percent
+      B25074063:      Renter-Occupied Housing Units: $100,000 or More: 50.0 Percent or More
+      B25074064:      Renter-Occupied Housing Units: $100,000 or More: Not Computed
+      B25074001s:     Std. Error: Renter-Occupied Housing Units
+      B25074002s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000
+      B25074003s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: Less than 20.0 Percent
+      B25074004s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: 20.0 to 24.9 Percent
+      B25074005s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: 25.0 to 29.9 Percent
+      B25074006s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: 30.0 to 34.9 Percent
+      B25074007s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: 35.0 to 39.9 Percent
+      B25074008s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: 40.0 to 49.9 Percent
+      B25074009s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: 50.0 Percent or More
+      B25074010s:     Std. Error: Renter-Occupied Housing Units: Less than $10,000: Not Computed
+      B25074011s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999
+      B25074012s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: Less than 20.0 Percent
+      B25074013s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: 20.0 to 24.9 Percent
+      B25074014s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: 25.0 to 29.9 Percent
+      B25074015s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: 30.0 to 34.9 Percent
+      B25074016s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: 35.0 to 39.9 Percent
+      B25074017s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: 40.0 to 49.9 Percent
+      B25074018s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: 50.0 Percent or More
+      B25074019s:     Std. Error: Renter-Occupied Housing Units: $10,000 to $19,999: Not Computed
+      B25074020s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999
+      B25074021s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: Less than 20.0 Percent
+      B25074022s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: 20.0 to 24.9 Percent
+      B25074023s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: 25.0 to 29.9 Percent
+      B25074024s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: 30.0 to 34.9 Percent
+      B25074025s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: 35.0 to 39.9 Percent
+      B25074026s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: 40.0 to 49.9 Percent
+      B25074027s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: 50.0 Percent or More
+      B25074028s:     Std. Error: Renter-Occupied Housing Units: $20,000 to $34,999: Not Computed
+      B25074029s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999
+      B25074030s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: Less than 20.0 Percent
+      B25074031s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: 20.0 to 24.9 Percent
+      B25074032s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: 25.0 to 29.9 Percent
+      B25074033s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: 30.0 to 34.9 Percent
+      B25074034s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: 35.0 to 39.9 Percent
+      B25074035s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: 40.0 to 49.9 Percent
+      B25074036s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: 50.0 Percent or More
+      B25074037s:     Std. Error: Renter-Occupied Housing Units: $35,000 to $49,999: Not Computed
+      B25074038s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999
+      B25074039s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: Less than 20.0 Percent
+      B25074040s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: 20.0 to 24.9 Percent
+      B25074041s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: 25.0 to 29.9 Percent
+      B25074042s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: 30.0 to 34.9 Percent
+      B25074043s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: 35.0 to 39.9 Percent
+      B25074044s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: 40.0 to 49.9 Percent
+      B25074045s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: 50.0 Percent or More
+      B25074046s:     Std. Error: Renter-Occupied Housing Units: $50,000 to $74,999: Not Computed
+      B25074047s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999
+      B25074048s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: Less than 20.0 Percent
+      B25074049s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: 20.0 to 24.9 Percent
+      B25074050s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: 25.0 to 29.9 Percent
+      B25074051s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: 30.0 to 34.9 Percent
+      B25074052s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: 35.0 to 39.9 Percent
+      B25074053s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: 40.0 to 49.9 Percent
+      B25074054s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: 50.0 Percent or More
+      B25074055s:     Std. Error: Renter-Occupied Housing Units: $75,000 to $99,999: Not Computed
+      B25074056s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More
+      B25074057s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: Less than 20.0 Percent
+      B25074058s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: 20.0 to 24.9 Percent
+      B25074059s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: 25.0 to 29.9 Percent
+      B25074060s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: 30.0 to 34.9 Percent
+      B25074061s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: 35.0 to 39.9 Percent
+      B25074062s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: 40.0 to 49.9 Percent
+      B25074063s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: 50.0 Percent or More
+      B25074064s:     Std. Error: Renter-Occupied Housing Units: $100,000 or More: Not Computed
+      B25101001:      Owner-Occupied Housing Units
+      B25101002:      Owner-Occupied Housing Units: with a Mortgage
+      B25101003:      Owner-Occupied Housing Units: with a Mortgage: Less than $20,000
+      B25101004:      Owner-Occupied Housing Units: with a Mortgage: Less than $20,000: Less than 20 Percent
+      B25101005:      Owner-Occupied Housing Units: with a Mortgage: Less than $20,000: 20 to 29 Percent
+      B25101006:      Owner-Occupied Housing Units: with a Mortgage: Less than $20,000: 30 Percent or More
+      B25101007:      Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999
+      B25101008:      Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999: Less than 20 Percent
+      B25101009:      Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999: 20 to 29 Percent
+      B25101010:      Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999: 30 Percent or More
+      B25101011:      Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999
+      B25101012:      Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999: Less than 20 Percent
+      B25101013:      Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999: 20 to 29 Percent
+      B25101014:      Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999: 30 Percent or More
+      B25101015:      Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999
+      B25101016:      Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999: Less than 20 Percent
+      B25101017:      Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999: 20 to 29 Percent
+      B25101018:      Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999: 30 Percent or More
+      B25101019:      Owner-Occupied Housing Units: with a Mortgage: $75,000 or More
+      B25101020:      Owner-Occupied Housing Units: with a Mortgage: $75,000 or More: Less than 20 Percent
+      B25101021:      Owner-Occupied Housing Units: with a Mortgage: $75,000 or More: 20 to 29 Percent
+      B25101022:      Owner-Occupied Housing Units: with a Mortgage: $75,000 or More: 30 Percent or More
+      B25101023:      Owner-Occupied Housing Units: with a Mortgage: Zero or Negative Income
+      B25101024:      Owner-Occupied Housing Units: Not Mortgaged
+      B25101025:      Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000
+      B25101026:      Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000: Less than 20 Percent
+      B25101027:      Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000: 20 to 29 Percent
+      B25101028:      Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000: 30 Percent or More
+      B25101029:      Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999
+      B25101030:      Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999: Less than 20 Percent
+      B25101031:      Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999: 20 to 29 Percent
+      B25101032:      Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999: 30 Percent or More
+      B25101033:      Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999
+      B25101034:      Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999: Less than 20 Percent
+      B25101035:      Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999: 20 to 29 Percent
+      B25101036:      Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999: 30 Percent or More
+      B25101037:      Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999
+      B25101038:      Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999: Less than 20 Percent
+      B25101039:      Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999: 20 to 29 Percent
+      B25101040:      Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999: 30 Percent or More
+      B25101041:      Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More
+      B25101042:      Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More: Less than 20 Percent
+      B25101043:      Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More: 20 to 29 Percent
+      B25101044:      Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More: 30 Percent or More
+      B25101045:      Owner-Occupied Housing Units: Not Mortgaged: Zero or Negative Income
+      B25101001s:     Std. Error: Owner-Occupied Housing Units
+      B25101002s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage
+      B25101003s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: Less than $20,000
+      B25101004s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: Less than $20,000: Less than 20 Percent
+      B25101005s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: Less than $20,000: 20 to 29 Percent
+      B25101006s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: Less than $20,000: 30 Percent or More
+      B25101007s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999
+      B25101008s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999: Less than 20 Percent
+      B25101009s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999: 20 to 29 Percent
+      B25101010s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $20,000 to $34,999: 30 Percent or More
+      B25101011s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999
+      B25101012s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999: Less than 20 Percent
+      B25101013s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999: 20 to 29 Percent
+      B25101014s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $35,000 to $49,999: 30 Percent or More
+      B25101015s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999
+      B25101016s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999: Less than 20 Percent
+      B25101017s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999: 20 to 29 Percent
+      B25101018s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $50,000 to $74,999: 30 Percent or More
+      B25101019s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $75,000 or More
+      B25101020s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $75,000 or More: Less than 20 Percent
+      B25101021s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $75,000 or More: 20 to 29 Percent
+      B25101022s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: $75,000 or More: 30 Percent or More
+      B25101023s:     Std. Error: Owner-Occupied Housing Units: with a Mortgage: Zero or Negative Income
+      B25101024s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged
+      B25101025s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000
+      B25101026s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000: Less than 20 Percent
+      B25101027s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000: 20 to 29 Percent
+      B25101028s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: Less than $20,000: 30 Percent or More
+      B25101029s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999
+      B25101030s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999: Less than 20 Percent
+      B25101031s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999: 20 to 29 Percent
+      B25101032s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $20,000 to $34,999: 30 Percent or More
+      B25101033s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999
+      B25101034s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999: Less than 20 Percent
+      B25101035s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999: 20 to 29 Percent
+      B25101036s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $35,000 to $49,999: 30 Percent or More
+      B25101037s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999
+      B25101038s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999: Less than 20 Percent
+      B25101039s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999: 20 to 29 Percent
+      B25101040s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $50,000 to $74,999: 30 Percent or More
+      B25101041s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More
+      B25101042s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More: Less than 20 Percent
+      B25101043s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More: 20 to 29 Percent
+      B25101044s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: $75,000 or More: 30 Percent or More
+      B25101045s:     Std. Error: Owner-Occupied Housing Units: Not Mortgaged: Zero or Negative Income
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2017
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11437261
+
+If you have any questions contact info@socialexplorer.com
