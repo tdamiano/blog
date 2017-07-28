@@ -4,7 +4,7 @@ p_load(tidyverse, janitor, stringr)
 
 #All years all cities, remove townships/unicorporated (Using constant 2010 Met Council Def of Affordability @60% AMI)
 
-ahprod_raw <- read_csv("./data/housing_prod_mc.csv") 
+ahprod_raw <- read_csv("./data/housing_prod_mc_raw.csv") 
 
 ahprod <- ahprod_raw %>% 
   clean_names() %>%
@@ -24,9 +24,9 @@ ahprod <- ahprod_raw %>%
   dplyr::filter(!str_detect(ctu_name, 'Township')) %>%
   dplyr::filter(!str_detect(ctu_name, 'unorganized'))
 
-##### Data cleaning for DataWrapper #######
+##### Data cleaning for DataWrapper #######s
 
-# Fig 1 - Affordable Housing Production by Year 85-15
+# Fig 1 - Affordable Housing Production by Year 95-15
 prodyr_dw<- ahprod %>% 
   group_by(affyn, year) %>% 
   summarise(
@@ -108,3 +108,4 @@ xtab_dw <- cbrent %>%
   select(-`<NA>`) %>% drop_na(incomeband)
 
 write_csv(xtab_dw, "./data/xtab_dw.csv")
+
